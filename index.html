@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>VibeTech</title>
+      <link rel="stylesheet" href="styles.css" />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous"
+      />
+
+      <!--Insert Google Link Import-->
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+        rel="stylesheet"
+      />
+
+      <!-- 3D Headphones Script -->
+      <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.10.99/build/spline-viewer.js">
+      </script>
+    
+    <!-- icons CDN -->  
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+
+    <!-- CUSTOM FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+SAS:wght@100..400&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+
+    <!--Keven's Add-on for Customer Review and Footer-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+    rel="stylesheet"
+  />
+   <!--End Keven's Add-on for Customer Review and Footer-->
+</head>
+<body>
+  
+<!-- NAVBAR Section -->
+<section class="prime_hero" id="home">
+  <header
+  class="sticky-top z-3 bg-bg-dark py-3"
+  style="background-color: rgba(10, 13, 16, 0.95); backdrop-filter: blur(5px);"
+>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-xl d-flex align-items-center">
+
+      <!-- LOGO -->
+      <a 
+         class="h4 fw-bolder text-decoration-none"
+         style="letter-spacing: 2px; color: #E8E8E8;">
+        V I B E <span style="color: #7df9ff;">T E C H</span>
+      </a>
+
+      <!--DENIS, NAVBAR COLLAPSE-->
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-auto" style="background-color: white;" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#our_products">Our Products</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#limited_edition">Limited-Edition</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#deals">Deals</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#top_picks">Top Picks</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#customer_reviews">Customer Reviews</a></li>
+        </ul>
+      </div>
+
+      <!--DENIS NAVBAR COLLAPSE END-->
+
+      <!-- DENIS Working Cart -->
+      <button id="cart-btn" class="btn btn-outline-light position-relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+             fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round"
+             class="text-faded hover-accent">
+          <circle cx="8" cy="21" r="1" />
+          <circle cx="19" cy="21" r="1" />
+          <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.63h9.72a2 2 0 0 0 2-1.63L23 6H6" />
+        </svg>
+        <span id="cart-count" 
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          0
+        </span>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- NAVBAR Section END -->
+
+
+<!-- Home Section -->
+    <section class="prime_hero mb-0 pb-4">
+
+    <!-- Main Content Wrapper -->
+    <main class="container-fluid pt-0 pb-0 px-5">  
+      <section class="min-vh-100 d-flex align-items-center">
+        <div class="row align-items-center g-5 w-100">
+
+              <!-- Left Column (Text) -->
+              <div class="col-lg-7 order-lg-1 order-1" style="padding-left: 80px; padding-top: 10px">
+                <h1 class="display-1 fw-bolder lh-sm pb-5"
+                style="letter-spacing: 2px; color: #2c2c2c;">
+                SMARTER <span style="color: #0022ff;"> CHOICES, </span>
+                SMARTER <span style="color:#0022ff;"><br> LIVING </span>
+              </h1>
+              <a
+                  type="button"
+                  class="hero-btn" 
+                  href="https://z8n435-5000.csb.app/" 
+                  >
+                  Explore Products                  
+                </a>           
+              </div>
+
+              <!-- Center/Right Column (Gamepad Image & Pricing/Stats) -->
+              <div class="col-lg-5 order-lg-2 order-2 d-flex justify-content-center align-items-center">
+                <spline-viewer 
+                  url="https://prod.spline.design/CcLIBQUc3yg5TUep/scene.splinecode"
+                  style="width: 100%; max-width: 900px; height: 612px;">
+                </spline-viewer>            
+              </div>            
+            </section>
+          </main>
+      </section>
+    
+<!-- Home Section END -->
+
+
+<!-- Our Products Section -->
+      <section class="black py-5" id="our_products">
+      <div class="container">
+
+<!-- Chris' Header Padding -->
+        <!-- Header sits ABOVE the row -->
+        <header class="text-center mb-5 mt-2">
+        <h1 class="text-white">Our Products</h1>
+        </header>
+<!-- Chris' Header Padding END -->
+
+        <!-- Cards Row -->
+        <div class="row row-cols-1 row-cols-md-4 g-4 pb-3">
+
+        <!-- Product 1 -->
+          <div class="col-md-3">
+            <div class="card h-100">
+              <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCmP-dKq0g8zd99ZjYSms7srpdR3yQkUCiM52fCSBBIVNIby0UFTBohyrKvTcz43hroIsp2UHn8KaHzf1nVrsMlZxYp9KHUjNpL-5dnawcGVHDEjLX4CGvTaBEkaqJyW3CmmrErtQJKQ&usqp=CAc" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">Slim, stylish, and shockproof—our phone cases protect your device while showing off your personal style.</p>
+                <div class="px-1.9">
+                  <button class="view-more-btn" data-category="phone-cases">View More</button>              
+            </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <img src="https://i5.walmartimages.com/seo/Bluetooth-Headphones-Ear-Wireless-Headphones-Microphone-Foldable-Lightweight-Headset-Deep-Bass-HiFi-Stereo-Sound-Travel-Work-Khaki_40fb3826-5d33-4967-ad2f-34541e372c10.2d47f3cc8da0e2a1e4168d0aa0294d03.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Headphones</h5>
+                  <p class="card-text">Wireless, noise-cancelling, and comfy—Vibe Tech headphones deliver great sound and bold, trendy colors.</p>
+                  <button class="view-more-btn" data-category="headphones">View More</button>                 
+                </div>
+              </div>
+            </div>
+
+          <!-- Product 3 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <img src="https://www.belkin.com/on/demandware.static/-/Sites-master-product-catalog-blk/default/dw5f3a427a/images/hi-res/NaN/a5efbba9aecdd3a_WIZ036bk-3-in-1-25w-wirless-charger-shot-hero-01.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chargers</h5>
+                  <p class="card-text">Fast, sleek, and reliable—our chargers and wireless pads keep your devices powered anytime, anywhere.</p>
+                  <button class="view-more-btn" data-category="chargers">View More</button>
+                </div>
+              </div>
+            </div>
+
+          <!-- Product 4 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <img src="https://readyteamone.com/wp-content/uploads/2024/06/Cheap-Standalone-VR-Headset.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> VR Accessories</h5>             
+                  <p class="card-text">Controllers, face cushions, and more—enhancing comfort, performance, and immersion in your VR experience.</p>
+                  <button class="view-more-btn" data-category="vr accessories">View More</button>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+<!-- Our Products Section END -->
+
+  
+<!-- Limited-Edition Section -->
+<section id="limited_edition">
+  <!-- Note: data-bs-ride is intentionally omitted here to prevent page-load autoplay -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Limited-Edition/V I B E T E C H - AirPods 4.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <button class="btn btn-primary add-to-cart2" data-name="Apple AirPods 4" data-price="128.99" data-img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShpKvnBy-_va1ZJjf-VLZhXBytJpn2VlSssw&s"> Add to Cart </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Limited-Edition/V I B E T E C H - Watch SE 3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <button class="btn btn-primary add-to-cart2" data-name="Apple Watch SE 3" data-price="198.99" data-img="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYJ33ref_VW_34FR+watch-case-40-aluminum-starlight-nc-se3_VW_34FR+watch-face-40-aluminum-starlight-se3_VW_34FR?wid=5120&hei=3280&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=L1VPMlk5ZkpkOVFZR3Fud25vckh4RStGZUJWLzNFUFVydllxZFp0d1M4NktoaXQwYi9wRGFOV2FsZVA1S1dYc01zdmlsQnpTM2JsTW1CL2FMcHR1ZUl3ZVlaMG9GekEwc3V1SXQ4RHBUY09LaGl0MGIvcERhTldhbGVQNUtXWHN3cVN2b2d1T00zNGpwWGphRE1oeEFaRnZGUUdUeGtYN2gySi9ZaWRpZitLckJnajVCaGRzU0pBREM1Q082Uk51NXVkZ2t0VWxQK2o2M01obVdMRmRjc0pSNGF0YXBqRjZkYVFiTFU1d3d0NERIZFBTOUw0Y2NhbzQxU3h0Y1V3YQ"> Add to Cart </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Limited-Edition/V I B E T E C H - Rebel T7.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <button class="btn btn-primary add-to-cart2" data-name="Canon EOS Rebel T7" data-price="218.99" data-img="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT9pKqUNoLkefIjTbNGVpebrLfc15ML7z7kAeczFIU5k91o4UKOf64vvZMoc2mTyC4mIfcUVlgFUtaJAfPHVHiwF__8qIW2"> Add to Cart </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Limited-Edition/V I B E T E C H - C920 Pro.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <button class="btn btn-primary add-to-cart2" data-name="Logitech C920 Pro" data-price="59.99" data-img="https://webobjects2.cdw.com/is/image/CDW/5479466?$product-detail$"> Add to Cart </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Limited-Edition/V I B E T E C H - MusicCast 20.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <button class="btn btn-primary add-to-cart2" data-name="Yamaha MusicCast 20" data-price="151.99" data-img="https://images.crutchfieldonline.com/ImageHandler/trim/869/652/products/2018/16/022/g022WX021B-F.jpg"> Add to Cart </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Limited-Edition/V I B E T E C H - ZT231 Printer.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <button class="btn btn-primary add-to-cart2" data-name="Zebra ZT231 Printer" data-price="639.99" data-img="data:image/webp;base64,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"> Add to Cart </button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+<!-- Limited-Edition Section END -->
+
+
+<!-- Deals Section -->
+    <section class="prime_hero py-5" id="deals">
+      <div class="container">
+
+<!-- Chris' Header Padding -->
+        <header class="text-center mb-5 mt-2">
+          <h1 class="text-black">Deals</h1>
+        </header>
+<!-- Chris' Header Padding END -->
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 pb-3 justify-content-center">
+          
+          <!-- Deal 1 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://www.altocollective.com/cdn/shop/products/IMG_1610_800x.jpg?v=1749674912" class="card-img-top" alt="Phone Cases Bundle" style="object-fit: cover; height: 297px;">
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases Bundle</h5>
+                <p class="card-text">Behold pocket-sized galleries of nature-inspired charm.</p>
+                <p>The old price was <s>$119.99</s>, now it's $79.99.</p>
+                <button class="btn btn-primary add-to-cart"
+                data-name="Phone Cases Bundle"
+                data-price="79.99"
+                data-img="https://www.altocollective.com/cdn/shop/products/IMG_1610_800x.jpg?v=1749674912">
+                Add to Cart
+              </button>
+              
+                <div class="product-price"> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deal 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://cdn.shopify.com/s/files/1/0595/4034/0926/files/A720C008_Rich_image_TD01_US_V3_1.png?v=1726735775" class="card-img-top" alt="Screen Protector + Cleaning Kit Combo" style="object-fit: cover; height: 250px;">
+          <div class="card-body">
+            <h5 class="card-title">ArmorX Screen Protector</h5>
+            <p class="card-text">Keep your screen spotless and scratch-free with this essential safeguard for clear viewing and ultra-durability. </p>
+            <p>The old price was <s>$19.99</s>, now it's $9.99.</p>
+            <button class="btn btn-primary add-to-cart"
+            data-name="ArmorX Screen Protector"
+            data-price="9.99"
+            data-img="https://cdn.shopify.com/s/files/1/0595/4034/0926/files/A720C008_Rich_image_TD01_US_V3_1.png?v=1726735775">
+            Add to Cart
+          </button>
+          
+          </div>
+        </div>
+      </div>
+
+          <!-- Deal 3 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://ss7.vzw.com/is/image/VerizonWireless/soundcore-anker-soundcore-liberty-4-noise-cancelling-earbuds-navy-blue-a3947z31-iset/?wid=465&hei=465&fmt=webp" class="card-img-top" alt="Noise-Cancelling Earbuds" style="object-fit: cover; height: 275px;">
+              <div class="card-body">
+                <h5 class="card-title">Noise-Cancelling Earbuds</h5>
+                <p class="card-text">Immerse yourself in crystal-clear audio with these wireless, noise-cancelling earbuds.</p>
+                <p>The old price was <s>$89.99</s>, now it's $49.99.</p>
+                <button class="btn btn-primary add-to-cart"
+                data-name="Noise-Cancelling Earbuds"
+                data-price="49.99"
+                data-img="https://ss7.vzw.com/is/image/VerizonWireless/soundcore-anker-soundcore-liberty-4-noise-cancelling-earbuds-navy-blue-a3947z31-iset/?wid=465&hei=465&fmt=webp">
+                Add to Cart
+              </button>
+
+              </div>
+            </div>
+          </div>
+
+         <!-- Deal 4--> 
+         <div class="col">
+          <div class="card h-100">
+            <img src="https://m.media-amazon.com/images/I/71jdpBl-y5L._AC_SX679_.jpg" style="object-fit: cover; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">PopSocket Galaxy Bundle</h5>
+              <p class="card-text">Enhance your grip and add cosmic flair to your device with this galaxy-themed PopSocket—perfect for hands-free use.</p>
+              <p>The old price was <s>$34.99</s>, now it's $24.99.</p>
+              <button class="btn btn-primary add-to-cart"
+              data-name="PopSocket Galaxy Bundle"
+              data-price="24.99"
+              data-img="https://m.media-amazon.com/images/I/71jdpBl-y5L._AC_SX679_.jpg">
+              Add to Cart
+            </button>
+            
+          </div>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </section>
+<!-- Deals Section END -->
+
+
+<!-- Top Picks Section -->
+    <section class="py-5" id="top_picks" style="background-color: #000;"> 
+        <div class="container">
+
+<!-- Chris' Header Padding -->
+          <header class="text-center mb-5 mt-2">
+            <h1 class="text-white">Top Picks</h1>
+          </header>
+<!-- Chris' Header Padding END -->
+
+          <div class="row row-cols-1 row-cols-md-2 g-4 pb-3">
+
+          <!-- Pick 1 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <img src="https://i5.walmartimages.com/seo/Liboer-Hard-Gaming-Mouse-Pad-for-Logitech-Double-sided-Mousepad-for-Bed-Sofa-Durable-New-type-Resin-and-PU-Leather-Material-Black_51aaac2d-e341-4030-a20b-28bef691e2c2.c16be195eb4b98752abb6285b794dfae.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NeuroGlide Mouse Pad</h5>
+                  <p class="card-text">Support your wrist and boost comfort during long gaming or work sessions with this futuristic mouse pad.</p>
+                  <p>Price: $34.99</p>
+                  <button class="btn btn-primary add-to-cart"
+                  data-name="NeuroGlide Mouse Pad"
+                  data-price="34.99"
+                  data-img="https://i5.walmartimages.com/seo/Liboer-Hard-Gaming-Mouse-Pad-for-Logitech-Double-sided-Mousepad-for-Bed-Sofa-Durable-New-type-Resin-and-PU-Leather-Material-Black_51aaac2d-e341-4030-a20b-28bef691e2c2.c16be195eb4b98752abb6285b794dfae.jpeg">
+                  Add to Cart
+                </button>
+                
+                </div>
+              </div>
+            </div>
+
+          <!-- Pick 2 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <img src="https://www.maxgaming.com/bilder/artiklar/zoom/22269_1.jpg?m=1661864590" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">VorteX Gaming Mouse</h5>
+                  <p class="card-text">Add flair to your setup with precision tracking and customizable lighting in a compact, dark shell.</p>
+                  <p>Price: $59.99</p>
+                  <button class="btn btn-primary add-to-cart"
+                  data-name="VorteX Gaming Mouse"
+                  data-price="59.99"
+                  data-img="https://www.maxgaming.com/bilder/artiklar/zoom/22269_1.jpg?m=1661864590">
+                  Add to Cart
+                </button>
+                           
+                </div>
+              </div>
+            </div>
+
+          <!-- Pick 3 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <img src="https://m.media-amazon.com/images/I/51iWFM8x80L._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Orbix PopSocket Pro</h5>
+                  <p class="card-text">Add grip, style, and convenience to your phone with this durable PopSocket for hands-free use.</p>
+                  <p>Price: $14.99</p>
+                  <button class="btn btn-primary add-to-cart"
+                  data-name="Orbix PopSocket"
+                  data-price="14.99"
+                  data-img="https://m.media-amazon.com/images/I/51iWFM8x80L._AC_UF894,1000_QL80_.jpg">
+                  Add to Cart
+                </button>
+                
+                </div>
+              </div>
+            </div>
+
+          <!-- Pick 4 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <img src="https://ghostkeyboards.com/cdn/shop/files/GhostK1blackPerspnoshadow1x1.png?v=1762439468&width=2048" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SynthWave Keyboard</h5>              
+                  <p class="card-text">Type in style with this sleek keyboard featuring vibrant backlighting and a layout for gaming and work.</p> 
+                  <p>Price: $69.99</p>
+                  <button class="btn btn-primary add-to-cart"
+                  data-name="SynthWave Keyboard"
+                  data-price="69.99"
+                  data-img="https://ghostkeyboards.com/cdn/shop/files/GhostK1blackPerspnoshadow1x1.png?v=1762439468&width=2048">
+                  Add to Cart
+                </button>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+<!-- Top Picks Section END -->
+
+
+<!-- Keven's Testimonials Section -->
+
+<!-- Chris' Header Padding -->
+   <section class="testimonials-section" id="customer_reviews">
+    <h2 class="testimonials-title text-center mb-5 mt-2">CUSTOMER REVIEWS</h2>
+<!-- Chris' Header Padding END -->
+
+    <div class="testimonials-wrapper">
+      <div class="testimonials-container">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">MJ</div>
+            <div class="testimonial-info">
+              <h4>MICHAEL J.</h4>
+              <p>Professional Athlete</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "These headphones are game-changers for outdoor training. The
+            sound quality is insane and they stay put no matter how intense
+            the workout gets. Best purchase I've made this year!"
+          </p>
+          <div class="testimonial-date">June 15, 2025</div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">SR</div>
+            <div class="testimonial-info">
+              <h4>SARAH R.</h4>
+              <p>Trail Runner</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "The futuristic design isn't just for looks - these headphones
+            have survived rain, mud, and extreme conditions. 40-hour battery
+            life is perfect for my long-distance runs."
+          </p>
+          <div class="testimonial-date">December 3, 2025</div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">AT</div>
+            <div class="testimonial-info">
+              <h4>ALEX T.</h4>
+              <p>Gym Enthusiast</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="testimonial-text">
+            "The bass on the Vibe Bass 540 Active is unbelievable. I've tried
+            multiple workout headphones and nothing comes close. Sweat
+            resistance actually works - no more ruined headphones!"
+          </p>
+          <div class="testimonial-date">December 22, 2025</div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">KL</div>
+            <div class="testimonial-info">
+              <h4>KEVIN L.</h4>
+              <p>Outdoor Adventurer</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Perfect for hiking and outdoor adventures. The sound isolation is
+            great without completely blocking out environmental sounds.
+            Comfortable for all-day wear."
+          </p>
+          <div class="testimonial-date">September 10, 2023</div>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">MC</div>
+            <div class="testimonial-info">
+              <h4>MIA C.</h4>
+              <p>Fitness Instructor</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "I teach 10+ classes a week and these are the only headphones that
+            keep up. The battery lasts all day, and the quick charge feature
+            is a lifesaver between sessions."
+          </p>
+          <div class="testimonial-date">December 5, 2025</div>
+        </div>
+
+        <!-- Testimonial 6 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">JR</div>
+            <div class="testimonial-info">
+              <h4>JAMIE R.</h4>
+              <p>CrossFit Athlete</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Survived 6 months of daily CrossFit workouts - burpees, box
+            jumps, everything. Still look and perform like new. The 'Other
+            Week Sale' was an incredible deal!"
+          </p>
+          <div class="testimonial-date">December 18, 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--End Keven's Testimonal Section-->
+
+<!--Keven's Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!--End Keven's Boostrap Js Bundle-->
+
+<!-- Keven's Testimonal Section Autoscroll-->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.querySelector(".testimonials-container");
+    const wrapper = document.querySelector(".testimonials-wrapper");
+    const testimonialCards = document.querySelectorAll(".testimonial-card");
+
+    // Clone cards for seamless scrolling
+    const cardsArray = Array.from(testimonialCards);
+    cardsArray.forEach((card) => {
+      const clone = card.cloneNode(true);
+      container.appendChild(clone);
+    });
+
+    // Set initial position
+    let scrollPosition = 0;
+    const scrollSpeed = 0.5; // pixels per frame (adjust for speed)
+    let animationId = null;
+
+    // Function to animate the scroll
+    function animateScroll() {
+      scrollPosition -= scrollSpeed;
+
+      // Reset position when we've scrolled through one set of cards
+      const cardWidth = 320; // min-width of testimonial-card
+      const gap = 25;
+      const scrollWidth = (cardWidth + gap) * testimonialCards.length;
+
+      if (Math.abs(scrollPosition) >= scrollWidth) {
+        scrollPosition = 0;
+      }
+
+      container.style.transform = `translateX(${scrollPosition}px)`;
+      animationId = requestAnimationFrame(animateScroll);
+    }
+
+    // Start animation
+    animationId = requestAnimationFrame(animateScroll);
+
+    // Pause on hover
+    wrapper.addEventListener("mouseenter", function () {
+      cancelAnimationFrame(animationId);
+      animationId = null;
+    });
+
+    wrapper.addEventListener("mouseleave", function () {
+      if (!animationId) {
+        animationId = requestAnimationFrame(animateScroll);
+      }
+    });
+
+    // Pause on window blur (when user switches tabs)
+    window.addEventListener("blur", function () {
+      if (animationId) {
+        cancelAnimationFrame(animationId);
+        animationId = null;
+      }
+    });
+
+    window.addEventListener("focus", function () {
+      if (!animationId) {
+        animationId = requestAnimationFrame(animateScroll);
+      }
+    });
+  });
+</script>
+<!-- Keven's Testimonal Section Autoscroll End-->
+
+<!-- Keven's Footer Section -->
+      <!-- Footer -->
+      <footer class="footer-section">
+        <div class="footer-bg">
+          <!-- Background image placeholder -->
+          <!-- Add your background image here in the CSS or as inline style -->
+        </div>
+        <div class="footer-content">
+          <!-- Top Row: Logo and Newsletter -->
+          <div class="footer-top-row">
+            <div class="footer-logo">
+              <h2>V I B E T E C H</h2>
+              <h3>PREMIUM TECHNOLOGY</h3>
+            </div>
+  
+            <div class="footer-newsletter">
+              <h4>STAY CONNECTED</h4>
+              <div class="newsletter-form">
+                <input type="email" placeholder="Enter your email" />
+                <button type="submit">Subscribe</button>
+              </div>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/vibetechaot/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/vibetechaot/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vibetechaot/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/vibetechaot/"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/vibetechaot/"><i class="fab fa-tiktok"></i></a>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Middle Row: Links Spread Out -->
+          <div class="footer-middle-row">
+            <div class="footer-column">
+              <h4>ABOUT</h4>
+              <ul>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Story</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-column">
+              <h4>LEGAL</h4>
+              <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Patents</a></li>
+                <li><a href="#">Trademarks</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-column contact-column">
+              <h4>CONTACT</h4>
+              <ul>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i> 123 Tech Lane, Silicon Valley, USA 90210
+                </li>
+                <li><i class="fas fa-phone"></i> (800) 123-4567</li>
+                <li><i class="fas fa-envelope"></i> support@vibetech.com</li>
+                <li><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM EST</li>
+              </ul>
+            </div>
+          </div>
+  
+          <!-- Bottom Row: Copyright -->
+          <div class="footer-bottom-row">
+            <div class="footer-bottom">
+              <p>
+                &copy; 2025 VIBETECH Inc. All rights reserved. | V I B E T E C H |
+                PREMIUM AUDIO TECHNOLOGY
+              </p>
+              <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-apple-pay"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+<!-- Keven's Footer Section END -->
+
+
+
+<!-- DO NOT PASS THIS SPACE ! RESTRICTED ZONE ! -->
+
+
+<!--DENIS, NAVBAR DISAPPEAR-->
+  <script>
+    let lastScrollTop = 0;
+    const navbar = document.querySelector("header");
+
+  window.addEventListener("scroll", () => {
+    let currentScroll = window.scrollY;
+
+    if (currentScroll > lastScrollTop && currentScroll > 80) {
+      // Scrolling down
+      navbar.classList.add("hide-nav");
+      navbar.classList.remove("show-nav");
+    } else {
+      // Scrolling up
+      navbar.classList.add("show-nav");
+      navbar.classList.remove("hide-nav");
+    }
+
+    lastScrollTop = currentScroll;
+  });
+</script>
+<!--DENIS, NAVBAR DISAPPEAR END-->
+
+<!-- DENIS CHATBOT-->
+<!-- Floating Chat Bubble -->
+<a href="https://poe.com/VibeTechChatbot" target="_blank" class="chat-bubble">
+  🤖
+</a>
+<!-- CHATBOT END -->
+
+<!-- DENIS CART -->
+<!-- Cart Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="cart-items"></tbody>
+        </table>
+        <h5 class="text-end">Total: $<span id="cart-total">0.00</span></h5>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark" data-bs-dismiss="modal">Continue Shopping</button>
+        <button class="btn btn-primary" id="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DENIS CART SCRIPT -->
+<script>
+  const cart = [];
+  const cartCount = document.getElementById('cart-count');
+  const cartItemsContainer = document.getElementById('cart-items');
+  const cartTotal = document.getElementById('cart-total');
+  const cartBtn = document.getElementById('cart-btn');
+  const cartModal = new bootstrap.Modal(document.getElementById('cartModal'));
+
+  document.querySelectorAll('.add-to-cart, .add-to-cart2').forEach(button => {
+    button.addEventListener('click', () => {
+      const name = button.dataset.name;
+      const price = parseFloat(button.dataset.price);
+      const img = button.dataset.img;
+
+      const existingItem = cart.find(item => item.name === name);
+      if (existingItem) {
+        existingItem.quantity++;
+      } else {
+        cart.push({ name, price, img, quantity: 1 });
+      }
+
+      updateCart();
+    });
+  });
+
+  function updateCart() {
+    cartItemsContainer.innerHTML = '';
+    let total = 0;
+    cart.forEach((item, index) => {
+      const subtotal = item.price * item.quantity;
+      total += subtotal;
+
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td><img src="${item.img}" alt="${item.name}" width="50"> ${item.name}</td>
+        <td>$${item.price.toFixed(2)}</td>
+        <td>
+          <input type="number" min="1" value="${item.quantity}" class="form-control form-control-sm w-50" 
+          onchange="changeQuantity(${index}, this.value)">
+        </td>
+        <td>$${subtotal.toFixed(2)}</td>
+        <td><button class="btn btn-sm btn-danger" onclick="removeItem(${index})">&times;</button></td>
+      `;
+      cartItemsContainer.appendChild(row);
+    });
+
+    cartTotal.textContent = total.toFixed(2);
+    cartCount.textContent = cart.reduce((sum, i) => sum + i.quantity, 0);
+  }
+
+  function changeQuantity(index, newQuantity) {
+    cart[index].quantity = parseInt(newQuantity);
+    updateCart();
+  }
+
+  function removeItem(index) {
+    cart.splice(index, 1);
+    updateCart();
+  }
+
+  cartBtn.addEventListener('click', () => {
+    cartModal.show();
+  });
+
+  document.getElementById('checkout-btn').addEventListener('click', () => {
+  });
+</script>
+
+<div id="cart-popup" class="cart-popup">
+  Item added to cart!
+</div>
+
+<script>
+  const addToCartButtons = document.querySelectorAll('.add-to-cart, .add-to-cart2');
+  const cartPopup = document.getElementById('cart-popup');
+
+  addToCartButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Show popup
+      cartPopup.classList.add('show');
+
+      // Hide after 2 seconds
+      setTimeout(() => {
+        cartPopup.classList.remove('show');
+      }, 2000);
+    });
+  });
+</script>
+<!-- DENIS CART END-->
+
+
+<!-- DENIS PRODUCT POPUP -->
+<!-- CATEGORY POPUP -->
+<div id="category-popup" class="popup-overlay">
+  <div class="popup-content">
+    <span id="close-popup" class="close-popup">&times;</span>
+    <h2 id="popup-title">Products</h2>
+
+    <div id="popup-products" class="popup-products-grid">
+    </div>
+  </div>
+</div>
+
+<script>
+  // CATEGORY PRODUCT DATABASE
+const categoryProducts = {
+    "phone-cases": [
+        { name: "Crystal Clear Guard", price: 11.99, img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCmP-dKq0g8zd99ZjYSms7srpdR3yQkUCiM52fCSBBIVNIby0UFTBohyrKvTcz43hroIsp2UHn8KaHzf1nVrsMlZxYp9KHUjNpL-5dnawcGVHDEjLX4CGvTaBEkaqJyW3CmmrErtQJKQ&usqp=CAc" },
+        { name: "Impact Shield Case", price: 14.99, img: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQB_8AP2l41a6ppxVynED9ZPrE1rK7-EJZfYljjv8wENAxx8Z05GQwmvSsXfuk-kSusz2RpbMnVLcktqBMyzQbl-tbieiDKRUIcAP6hWWA5E89-K4qt8EDyhyFJeM0UzjIATwF4uQ&usqp=CAc" },
+        { name: "ArmorFlex Pro", price: 17.99, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRgU6SrxJ21KHLw4oIbZnZc_yEDOwAv417RZRvxmZrgH3J7BBJDgf4cYlA9CLmRaNEoNpJhhBZyfr3kfjZerkSqLvn2tRkIloL1RwkeNJS0aeh85OJ1fou53fzFbChuFDU2nkORxuU_&usqp=CAc" },
+        { name: "UltraGrip Silicone", price: 21.99, img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRcdSNnHDmbD7pJmLqfxzZJhPXCbVdoMLwK4gpROSaEHI9iLz7JUNtL5ipHs931DVfnuXS-sNLfyRhJeYs0BGrKjRHmEy-vYj2GsaowQ0cB9VnlkJta14kPiYitTq4Fz8ZRvUjKqg&usqp=CAc" },
+    ],
+    "headphones": [
+        { name: "NoiseBlock X2", price: 59.99, img: "https://i5.walmartimages.com/seo/Bluetooth-Headphones-Ear-Wireless-Headphones-Microphone-Foldable-Lightweight-Headset-Deep-Bass-HiFi-Stereo-Sound-Travel-Work-Khaki_40fb3826-5d33-4967-ad2f-34541e372c10.2d47f3cc8da0e2a1e4168d0aa0294d03.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" },
+        { name: "BassMaster 500", price: 67.99, img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTXIP1voHvBVA-V4DkHpkCQVKTZv90VRFCbC36klgMz1-UiYZbGjcJ2fmk_84jWk_JFa0EBTAObhyFwwhx14IovcOA_v5MKEHJ09lHDk9ZIfmDG2R4yrFi0YE2YXU-5Y0bbL22gpcg&usqp=CAc" },
+        { name: "StudioWave Elite", price: 78.99, img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRqY-VLYZvG3yVCx991gwqqXzUwxsZLdVyukdadEc-LwP-t5GHSPEeEokEKZgraDOmSVDLqNrp5A3vMjeAEnfRHI2HYoLDmit5bHSLFFHmrDKOKj4NwMme2" },
+        { name: "AeroSound Lite", price: 89.99, img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSI-7c5MONyySTsf6WmNnOzSsX7_1nH8qbO6RIr9MjYJYwGca4jhiCIia5zS6s32bqNCNpGwxzv7cC1n0pBiCpWIVL_fIk8WUKF9shA35fTqiS_ob6xbTUI3Q" },
+    ],
+    "chargers": [
+        { name: "FastCharge Mini", price: 23.99, img: "https://www.belkin.com/on/demandware.static/-/Sites-master-product-catalog-blk/default/dw5f3a427a/images/hi-res/NaN/a5efbba9aecdd3a_WIZ036bk-3-in-1-25w-wirless-charger-shot-hero-01.png" },
+        { name: "VoltRush Pro", price: 34.99, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQy_WcflkahgRQUkRxQtW5EtOwgx41nYXCyeBKN3AS5DnbCn4kSjVhjJM-IbB9eSaavT0qZ3uqPesfG9xpnoOqr4Pkqsq-TfhHjYfJH8jGUphaNFnEljfic" },
+        { name: "PowerZap X", price: 47.99, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRWiDtpiWYOUfGQxD7PUeazvGA6In-IXGcOksTsmJlyupMSdZeH_tcHYWaEjMPHkeY6qtGwtox95kxzuXu2V-Dbt9DaNAkP_8W_8dtbP6KH_DtQD5pMfTyo" },
+        { name: "MaxCharge Pro", price: 59.99, img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREij2l7AZhbjk4dvE-gqd5h9D7-SCz7LMXBq2R3TQS0yrbHdHBiugRYOafQNpvxlqwF7HEvwrfDH9d42PL3P6AfevE6uUuftcikWwkCrWpusizBO_JaSySdg" },
+    ],
+    "vr accessories": [
+        { name: "Meta VR Headset", price: 179.99, img: "https://readyteamone.com/wp-content/uploads/2024/06/Cheap-Standalone-VR-Headset.jpg" },
+        { name: "Meta VR Controllers", price: 75.99, img: "https://unboundxr.co.uk/media/catalog/product/cache/00b36ac9b7793203443e8a5a49fd8f5f/6/_/6_2_5.webp" },
+        { name: "Haptic Vest 4", price: 249.99, img: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSmpTzoPdVOijy9GHNf4FgxWpCn07RYSf37TwrqSsZPhb_FzGuT8YEKSLczAFGLEgXft11MfSkSGJ9v530hys_-2VB39tmuEKlapwQk39ujYJi-flopKYPy7SBbgXez&usqp=CAc" },
+        { name: "Spine VR Gun Stock", price: 129.99, img: "https://www.olenvr.com/cdn/shop/files/Spine-Ghost-Edition-Vr-Gun-Stock-Meta-Quest-3-Controllers-Attached.webp?v=1751916722&width=800" },
+    ],
+};
+
+// POPUP ELEMENTS
+const popup = document.getElementById("category-popup");
+const popupTitle = document.getElementById("popup-title");
+const popupProducts = document.getElementById("popup-products");
+
+// OPEN CATEGORY POPUP
+document.querySelectorAll(".view-more-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const category = btn.getAttribute("data-category");
+        const products = categoryProducts[category];
+
+        popupTitle.textContent = btn.getAttribute("data-category").replace("-", " ").toUpperCase();
+        popupProducts.innerHTML = "";
+
+        products.forEach(p => {
+            const card = document.createElement("div");
+            card.classList.add("popup-product-card");
+
+            card.innerHTML = `
+                <img src="${p.img}" alt="${p.name}">
+                <h4>${p.name}</h4>
+                <p>$${p.price.toFixed(2)}</p>
+                <button class="btn btn-primary add-to-cart-btn add-to-cart2-btn">Add to Cart</button>
+            `;
+
+            card.querySelector(".add-to-cart-btn, .add-to-cart2-btn").addEventListener("click", () => {
+                addToCart(p.name, p.price, p.img);
+            });
+
+            popupProducts.appendChild(card);
+        });
+
+        popup.style.display = "flex";
+    });
+});
+
+// CLOSE POPUP
+document.getElementById("close-popup").addEventListener("click", () => {
+    popup.style.display = "none";
+});
+</script>
+
+<script>
+  const popupProductsContainer = document.getElementById('popup-products');
+
+  function createPopupProductCard(product, index) {
+    const card = document.createElement('div');
+    card.classList.add('popup-product-card');
+
+    card.innerHTML = `
+      <img src="${product.img}" alt="${product.name}">
+      <h5>${product.name}</h5>
+      <p>$${product.price.toFixed(2)}</p>
+      <button class="btn btn-primary add-to-cart-popup add-to-cart2-popup" 
+        data-name="${product.name}" 
+        data-price="${product.price}" 
+        data-img="${product.img}">
+        Add to Cart
+      </button>
+    `;
+    popupProductsContainer.appendChild(card);
+  }
+
+  // Show category popup and populate products
+  document.querySelectorAll('.view-more-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const category = btn.dataset.category;
+      const products = categoryProducts[category] || [];
+      
+      popupProductsContainer.innerHTML = ''; // Clear previous products
+      products.forEach((product, i) => createPopupProductCard(product, i));
+
+      document.getElementById('popup-title').textContent = category.replace('-', ' ').toUpperCase();
+      document.getElementById('category-popup').style.display = 'block';
+
+      // Add event listeners for new popup add-to-cart add-to-cart2 buttons
+      document.querySelectorAll('.add-to-cart-popup, .add-to-cart2-popup').forEach(button => {
+        button.addEventListener('click', () => {
+          const name = button.dataset.name;
+          const price = parseFloat(button.dataset.price);
+          const img = button.dataset.img;
+
+          const existingItem = cart.find(item => item.name === name);
+          if (existingItem) {
+            existingItem.quantity++;
+          } else {
+            cart.push({ name, price, img, quantity: 1 });
+          }
+
+          updateCart();
+
+          // Show popup notification
+          cartPopup.classList.add('show');
+          setTimeout(() => cartPopup.classList.remove('show'), 2000);
+        });
+      });
+    });
+  });
+
+  // Close popup
+  document.getElementById('close-popup').addEventListener('click', () => {
+    document.getElementById('category-popup').style.display = 'none';
+  });
+</script>
+
+<!-- DENIS PRODUCT POPUP END -->
+
+
+<!--DENIS CHECKOUT -->
+<!-- Checkout Modal -->
+<div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="checkoutModalLabel">Checkout</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="checkout-form">
+          <div class="mb-3">
+            <label for="customer-name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="customer-name" required>
+          </div>
+          <div class="mb-3">
+            <label for="customer-email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="customer-email" required>
+          </div>
+          <div class="mb-3">
+            <label for="customer-address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="customer-address" required>
+          </div>
+          <div class="mb-3">
+            <label for="payment-method" class="form-label">Payment Method</label>
+            <select class="form-select" id="payment-method" required>
+              <option value="">Select...</option>
+              <option value="credit-card">Credit Card</option>
+              <option value="paypal">PayPal</option>
+              <option value="cash">Cash on Delivery</option>
+            </select>
+          </div>
+          <h5>Total: $<span id="checkout-total">0.00</span></h5>
+          <button type="submit" class="btn btn-primary t-3">Place Order</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const checkoutModal = new bootstrap.Modal(document.getElementById('checkoutModal'));
+  const checkoutTotal = document.getElementById('checkout-total');
+
+  document.getElementById('checkout-btn').addEventListener('click', () => {
+  if (cart.length === 0) {
+    alert("Your cart is empty!");
+    return;
+  }
+
+  // Show total in checkout modal
+  checkoutTotal.textContent = cartTotal.textContent;
+
+  // Open the checkout modal
+  checkoutModal.show();
+});
+
+</script>
+
+<script>
+  document.getElementById('checkout-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById('customer-name').value;
+  const email = document.getElementById('customer-email').value;
+  const address = document.getElementById('customer-address').value;
+  const payment = document.getElementById('payment-method').value;
+
+  console.log('Order Details:', { name, email, address, payment, cart });
+
+  // Clear cart
+  cart.length = 0;
+  updateCart();
+
+  // Close checkout modal
+  checkoutModal.hide();
+
+  // Show success message
+  alert(`Thank you, ${name}! Your order has been placed successfully.`);
+});
+</script>
+<!-- DENIS CHECKOUT END -->
+
+</body>
+</html>
