@@ -842,6 +842,11 @@ footer {
   transform: translateX(5px);
 }
 
+.footer-column-dev ul li a:hover {
+  color: #00bfff;
+  transform: none;
+}
+
 .contact-column ul li {
   color: #c0c0c0;
   font-size: 0.95rem;
